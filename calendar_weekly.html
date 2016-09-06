@@ -1,0 +1,1295 @@
+<<<<<<< HEAD
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Ectsp Patient Portal</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/icons.css">
+</head>
+<body>
+
+    <div class="application_wrap">
+        <header>
+
+            <div class="wrapper">
+                <div class="resp_menu">
+                    <a class="js_resp_menu" href="javascript:void(0)"><span class="hidden_text">Select to open side-menu</span><span class="icon ectsp_hamburger"></span></a>
+                </div>
+
+                <div class="brand">
+                    <h1>
+                        <a href="#">Ectsp</a>
+                    </h1>
+                </div>
+
+                <div class="user_section hide-for-mobile">
+                    <a href="javascript:void[0]" id="user_panel" class="user_panel dropdown_link">
+                        <span class="hidden_text">View User Options for</span>
+                        <span class="user_name">Martha Mullins</span>
+                        <span class="toggle_arrow ectsp_chevron_down"></span>
+                    </a>
+
+                    <div id="user_panel_options" style="display:none;" aria-hidden="true" class="dropdown_panel" role="dialog" aria-label="User Options">
+                        <div class="dropdown_close">
+                            <a href="javascript:void(0)" role="button" aria-label="Click or Press Escape key to close user Options Panel">
+                                <span class="ectsp_exit_view"></span>
+                                <span class="hidden_text">Click or Press Escape key to close user Options Panel</span>
+                            </a>
+                        </div>
+                        <h3 class="color_1">User Options</h3>
+                        <ul class="menu_list">
+                            <li><a href="#change_password">Content to be determined</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="user_logout">
+                        <a href="#" title="Logout"><span class="ectsp_logout"></span><span class="hidden_text">Logout</span></a>
+                    </div>
+                </div> 
+
+                <div class="care_team_module">
+                    <div class="avatar">
+                        <a class="care_team_module_center" href="care_team.html">
+                            <span class="hidden_text">Care Team</span>
+                            <span class="care_team_module_icon ectsp_brandmark"></span>
+                            <span class="concentric_ring c1"></span>
+                            <span class="concentric_ring c2"></span>
+                            <span class="concentric_ring c3"></span>
+                            <span class="concentric_ring c4"></span>
+                            <span class="care_team_message_count">2</span>
+                        </a>
+                    </div>
+                    <span class="pointer"></span>
+                </div> 
+            </div>
+
+            <div class="feed_header non-mobile">
+                <h2>Calendar</h2>
+
+                <!-- Toggle Calendar View State -->
+                <div class="cal_view_state btn_action btn_group clearfix">
+                    <div class="btn_option">
+                        <button type="button" class="btn_normal btn_group_option" id="view_monthly" onclick="window.location='calendar.html'">
+                            <span class="btn_text"><span class="group_status hidden_text">Current View </span>Month</span>
+                        </button>
+                    </div>
+                    <div class="btn_option">
+                        <button type="button" class="btn_normal btn_group_option btn_active" id="view_weekly" onclick="window.location='calendar_weekly.html'">
+                            <span class="btn_text"><span class="group_status hidden_text">Switch View to </span>Week</span>
+                        </button>
+                    </div>
+                    <div class="btn_option">
+                        <button type="button" class="btn_normal btn_group_option" id="view_daily" onclick="window.location='calendar_daily.html'">
+                            <span class="btn_text"><span class="group_status hidden_text">Switch View to </span>Day</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="appCta">
+                    <a class="appCta_close" href="javascript:void(0)"><span class="ectsp_close"></span></a>
+                    <a href="#">
+                        <div class="img_contain">
+                            <img src="img/app_cta_img.png" alt="Download the Ectsp App" />
+                        </div>
+                        <div class="cta_details">
+                            <p>Download the <span>Ectsp iPhone</span> app</p>
+                            <span class="appstore_img"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="wrapper">
+                <nav tabindex="0" class="navigation">
+                    <div class="user_section hide-for-desktop">
+                        <a class="user_profile_link" href="profile.html"> 
+                            <div class="user_profile_link_details">
+                                <span class="user_profile_name">Martha Mullins</span>
+                                <span class="link_signifier">View profile</span>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <!-- navigation -->
+                    <ul class="main_nav">
+                        <li>
+                            <a href="tasks.html">
+                                <span class="nav_icon ectsp_tasks"></span>
+                                <span class="nav_link_text">Task List</span>
+                                <span class="tasks_notification_count">+ 5</span><span class="hidden_text"> new tasks</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="goals.html"><span class="nav_icon ectsp_goals"></span><span class="nav_link_text">My Goals</span></a>
+                        </li>
+                        <li>
+                            <a href="care_plan.html"><span class="nav_icon ectsp_care_plan"></span><span class="nav_link_text">Care Plan</span></a>
+                        </li>
+                        <li>
+                            <a href="logbook.html"><span class="nav_icon ectsp_journal"></span><span class="nav_link_text">Logbook</span></a>
+                        </li>
+                        <li>
+                            <a class="active" href="calendar.html"><span class="nav_icon ectsp_calendar"></span><span class="nav_link_text">Calendar</span></a>
+                        </li>
+                        <li>
+                            <a href="library.html"><span class="nav_icon ectsp_library"></span><span class="nav_link_text">Library</span></a>
+                        </li>
+                        <li>
+                            <a href="care_team.html"><span class="nav_icon ectsp_care_team"></span><span class="nav_link_text">Care Team</span> <span class="tasks_notification_count">2</span><span class="hidden_text"> new messages</span></a>
+                        </li>
+                        <li>
+                            <a href="profile.html"><span class="nav_icon ectsp_avatar"></span><span class="nav_link_text">Profile</span></a>
+                        </li>
+                        <li>
+                            <a href="help.html"><span class="nav_icon ectsp_help"></span><span class="nav_link_text">Help</span></a>
+                        </li>
+                        <li class="logout_link hide-for-desktop">
+                            <a id="logoutButton" href="#"><span class="nav_icon ectsp_logout"></span><span class="nav_link_text">Logout</span></a>
+                        </li>
+                    </ul>
+
+                    <div class="version_details">
+                        <p>Version 1.0 By using ECTSP, you agree to our Disclaimer, Terms of Use and Privacy Policy.</p>
+                    </div>
+                </nav>
+
+                <div class="feed">
+                    <div class="feed_body">
+                        <div class="calendar_component">
+                            <!-- Start of Calendar -->
+                            <div id="calendar_header" class="clearfix">
+                                <div class="today_anchor"><a href="#"><span class="hidden_text">Return to</span>Today<span class="hidden_text">view</span></a></div>
+                                <div class="cal_month_container">
+                                    <div class="cal_prev_month">
+                                        <button type="button" class="btn_normal btn_icon_only">
+                                            <span class="btn_text"><span class="hidden_text">View Previous Week</span></span>
+                                            <span class="btn_icon ectsp_chevron_left"><span>
+                                            </button>
+                                        </div>
+                                        <h2 class="cal_month"><span class="hidden_text">Viewing Calendar for</span> <span id="cal_month_value">4 - 10 April 2016</span></h2>
+                                        <div class="cal_next_month">
+                                            <button type="button" class="btn_normal btn_icon_only">
+                                                <span class="btn_text"><span class="hidden_text">View Next Week</span></span>
+                                                <span class="btn_icon ectsp_chevron_right"><span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="cal_actions">
+
+                                            <!-- Chart Options -->
+                                            <div class="btn_action dropdown_container">
+                                                <button class="dropdown_link mobile_overlay_link btn_normal btn_white" id="addActivitiesLink" type="button">
+                                                    <span class="text">Show more activities</span>
+                                                    <span class="toggle_arrow ectsp_more"></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <table id="weekly_calendar" class="event_calenndar">
+                                        <caption class="hidden_text">Events Calendar</caption>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" width="30"><div class="cal_time hidden_text">Time</div></th>
+                                                <th scope="col"><div class="cal_day current_day"><span class="hidden_text">Current day:</span><abbr title="Monday">Mon</abbr> 4 <span class="hidden_text">April 2016</span></div></th>
+                                                <th scope="col"><div class="cal_day "><abbr title="Tuesday">Tue</abbr> 5 <span class="hidden_text">April 2016</span></div></th>
+                                                <th scope="col"><div class="cal_day"><abbr title="Wednesday">Wed</abbr> 6 <span class="hidden_text">April 2016</span></div></th>
+                                                <th scope="col"><div class="cal_day"><abbr title="Thursday">Thu</abbr> 7 <span class="hidden_text">April 2016</span></div></th>
+                                                <th scope="col"><div class="cal_day"><abbr title="Friday">Fri</abbr> 8 <span class="hidden_text">April 2016</span></div></th>
+                                                <th scope="col"><div class="cal_day"><abbr title="Saturday">Sat</abbr> 9 <span class="hidden_text">April 2016</span></div></th>
+                                                <th scope="col"><div class="cal_day"><abbr title="Sunday">Sun</abbr> 10 <span class="hidden_text">April 2016</span></div></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+
+                                            <tr>
+                                                <th class="cal_time_col">
+                                                    <div class="cal_time"><span class="cal_time_icon ectsp_morning"></span> <abbr title="Morning" aria-label="Morning">AM</abbr></div>
+                                                </th>
+                                                <td class="">
+                                                    <div class="cal_day">
+                                                        <button class="cal_entry btn_normal view_cal_medication">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_medication"></span>
+                                                                <span class="cal_entry_time_value">8:00am</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                        </button>
+                                                    </div>
+                                                </td>
+                                                <td class="">
+                                                    <div class="cal_day">
+                                                        <button class="cal_entry btn_normal view_cal_medication">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_medication"></span>
+                                                                <span class="cal_entry_time_value">8:00am</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                        </button>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cal_day">
+                                                        <button class="cal_entry btn_normal view_cal_medication">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_medication"></span>
+                                                                <span class="cal_entry_time_value">8:00am</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                        </button>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cal_day">
+                                                        <button class="cal_entry btn_normal view_cal_medication">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_medication"></span>
+                                                                <span class="cal_entry_time_value">8:00am</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                        </button>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cal_day">
+                                                        <button class="cal_entry btn_normal view_cal_medication">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_medication"></span>
+                                                                <span class="cal_entry_time_value">8:00am</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                        </button>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cal_day">
+                                                        <button class="cal_entry btn_normal view_cal_medication">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_medication"></span>
+                                                                <span class="cal_entry_time_value">8:00am</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                        </button>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cal_day">
+                                                        <button class="cal_entry btn_normal view_cal_medication">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_medication"></span>
+                                                                <span class="cal_entry_time_value">8:00am</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                        </button>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <th class="cal_time_col">
+                                                    <div class="cal_time"><span class="cal_time_icon ectsp_afternoon"></span> <abbr title="Afternoon" aria-label="Afternoon">PM</abbr></div>
+                                                </th>
+                                                <td class="">
+                                                    <div class="cal_day">
+                                                        <button class="cal_entry btn_normal view_cal_etherapy">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_etherapy"></span>
+                                                                <span class="cal_entry_time_value">2:00pm</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">eTherapy</span> Happy Neuron</span>
+                                                        </button>
+                                                        <!-- <button class="cal_entry btn_normal view_cal_encounter">
+                                                            <span class="cal_entry_time cal_entry_encounter">
+                                                                <span class="cal_entry_icon ectsp_visit"></span>
+                                                                <span class="cal_entry_time_value">4:00pm</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Encounter</span> MD, Nigel Norman Clinic</span>
+                                                        </button> -->
+                                                    </div>
+                                                </td>
+                                                <td class=""></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+
+                                            <tr>
+                                                <th class="cal_time_col">
+                                                    <div class="cal_time"><span class="cal_time_icon ectsp_evening"></span> <abbr title="Evening" aria-label="Evening">EVE</abbr></div>
+                                                </th>
+                                                <td class="">
+                                                    <div class="cal_day">
+                                                        <!-- <button class="cal_entry btn_normal view_cal_medication">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_medication"></span>
+                                                                <span class="cal_entry_time_value">8:00am</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                        </button> -->
+                                                    </div>
+                                                </td>
+                                                <td class="">
+                                                    <div class="cal_day">
+                                                        <!-- <button class="cal_entry btn_normal view_cal_medication">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_medication"></span>
+                                                                <span class="cal_entry_time_value">8:00am</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                        </button> -->
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cal_day">
+                                                        <!-- <button class="cal_entry btn_normal view_cal_medication">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_medication"></span>
+                                                                <span class="cal_entry_time_value">8:00am</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                        </button> -->
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cal_day">
+                                                        <!-- <button class="cal_entry btn_normal view_cal_medication">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_medication"></span>
+                                                                <span class="cal_entry_time_value">8:00am</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                        </button> -->
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cal_day">
+                                                        <!-- <button class="cal_entry btn_normal view_cal_medication">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_medication"></span>
+                                                                <span class="cal_entry_time_value">8:00am</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                        </button> -->
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cal_day">
+                                                        <!-- <button class="cal_entry btn_normal view_cal_medication">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_medication"></span>
+                                                                <span class="cal_entry_time_value">8:00am</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                        </button> -->
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cal_day">
+                                                        <!-- <button class="cal_entry btn_normal view_cal_medication">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_medication"></span>
+                                                                <span class="cal_entry_time_value">8:00am</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                        </button> -->
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        
+
+        <!-- @dialog Modal Window for adding activites to the graph -->
+        <div id="addActivitiesDialog" title="Edit Value" role="dialog" aria-labelledby="addActivitiesTitle" aria-describedby="addActivitiesDesc" style="display: none;">
+            <div class="dialog_header">
+                <h1 id="addActivitiesTitle">Show more activities</h1>
+            </div>
+            <div id="addActivitiesDesc" class="dialog_desc">This dialog allows you to add activity filters to this view</div>
+            <div class="dialog_close">
+                <a href="javascript:void(0)" class="close_modal"><span class="ectsp_close"></span>Close Dialog or press Escape to dismiss</a>
+            </div>
+            <div class="dialog_content">
+
+                <div class="permanent_display">
+                    <ul class="menu_list">
+                        <li>
+                            <label class="chbox_label" for="task_missed_medication">
+                                <span class="chbox_input"><input disabled="" checked="" type="checkbox" id="task_missed_medication" name="task_missed_medication"/></span><span class="chbox_icon"></span>
+                                <span class="chbox_text"><span class="chbox_status hidden_text">Select</span> <span class="task_icon task_status_missed ectsp_missed"></span> Missed </span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="chbox_label" for="task_appointment">
+                                <span class="chbox_input"><input disabled="" checked="" type="checkbox" id="task_appointment" name="task_etherapy"/></span><span class="chbox_icon"></span>
+                                <span class="chbox_text"><span class="chbox_status hidden_text">Select</span> <span class="task_icon task_status_visit ectsp_visit"></span> Appointment</span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                
+                <ul class="graph_list">
+                    <li>
+                        <label class="chbox_label" for="task_medication">
+                            <span class="chbox_input"><input type="checkbox" id="task_medication" name="task_medication" /></span><span class="chbox_icon"></span>
+                            <span class="chbox_text"><span class="chbox_status hidden_text">Select</span> <span class="task_icon ectsp_medication"></span> Medication</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="chbox_label" for="task_etherapy">
+                            <span class="chbox_input"><input type="checkbox" id="task_etherapy" name="task_etherapy"/></span><span class="chbox_icon"></span>
+                            <span class="chbox_text"><span class="chbox_status hidden_text">Select</span> <span class="task_icon ectsp_etherapy"></span> eTherapy</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="chbox_label" for="task_questionnaire">
+                            <span class="chbox_input"><input type="checkbox" id="task_questionnaire" name="task_questionnaire"  /></span><span class="chbox_icon"></span>
+                            <span class="chbox_text"><span class="chbox_status hidden_text">Select</span> <span class="task_icon ectsp_questionnaire"></span> Questionnaire</span>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="chbox_label" for="task_education">
+                            <span class="chbox_input"><input type="checkbox" id="task_education" name="task_education"  /></span><span class="chbox_icon"></span>
+                            <span class="chbox_text"><span class="chbox_status hidden_text">Select</span> <span class="task_icon ectsp_education"></span> Education</span>
+                        </label>
+                    </li>
+                </ul>
+
+                <div class="cancel_confirm_actions dialog_actions clearfix">
+                    <div class="actions_left">
+                        <button type="button" class="btn_normal btn_primary btn_cancel_modal">
+                            <span class="btn_text">Done</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/common.js"></script>
+
+        <script>
+            (function(ectsp) {
+
+                ectsp(window.jQuery, window, document);
+
+            }(function($, window, document) {
+
+                $(function() {
+                    var menuBtn       = $('.js_resp_menu');
+                    var sideNav       = $('.navigation');
+                    var appCta        = $('.appCta');
+                    var appCtaClose   = $('.appCta_close');
+                    var feed          = $('.feed');
+                    var overlayLink   = $('.mobile_overlay_link');
+                    var overlayClose  = $('.mobile_overlay_close');
+                    var wrap          = $('.application_wrap');
+                    var dropdownLink = $('.dropdown_link');
+                    var panelOptions = $('#calendar_panel_options');
+                    
+                    //responsive nav
+                    menuBtn.click(function(e) {
+                        if ( sideNav.hasClass('isOpen') ) {
+                            sideNav.removeClass('isOpen');
+                            $('body').removeClass('no-scroll');
+                            $('.navigation').attr('aria-hidden','true');
+                            return false
+                        } else {
+                            $('.navigation').attr('aria-hidden','false');
+                            sideNav.addClass('isOpen');
+                            $('body').addClass('no-scroll');
+                            $('.user_profile_link').focus();
+                            return false
+                        }
+                    });
+
+                    $('html').click(function(){
+                        if ( sideNav.hasClass('isOpen') ) {
+                            $('.navigation').attr('aria-hidden','true');
+                            sideNav.removeClass('isOpen');
+                            $('body').removeClass('no-scroll');
+                        }
+                        if ( dropdownLink.hasClass('active') ) {
+                            $('body').removeClass('no_scroll');
+                        $('.mobile_overlay_bg').remove();
+                        $('.mobile_overlay_panel').hide();
+                        $('.dropdown_link.active').focus();
+                        $(".dropdown_panel").hide().attr('aria-hidden','true').attr( "tabindex", '' );
+                        $('.dropdown_link').removeClass('active');
+                        var dialogOpen = false;
+                        }  
+                    });
+
+                    dropdownLink.click(function(e){
+                        e.stopPropagation();
+                    });
+
+                    panelOptions.click(function(e){
+                        e.stopPropagation();
+                    });
+
+                    sideNav.click(function(e){
+                        e.stopPropagation();
+                    });
+
+                    $(window).resize(function(){
+
+                        //  if ( windowFrame.width() < 767 ) {
+                        //     sideNav.animate({'left' : '-50%'}).removeClass('isOpen');
+                        // } 
+
+                        // if ( windowFrame.width() > 768 ) {
+                        //     sideNav.css({'left' : '0'}).removeClass('isOpen');
+                        // } 
+
+                        // if (windowFrame.width() > 1200) {
+                        //     sideNav.css({'left' : 'auto'}).removeClass('isOpen');
+                        // }
+                        
+                    });
+
+                    // close App Cta
+                    appCtaClose.click(function(){
+                        appCta.slideUp().addClass('hidden');
+                        feed.css('margin-top', 0);
+                    });
+
+                    // mobile overlay script
+                    overlayLink.click(function(){
+                        $(wrap).prepend("<div class='mobile_overlay_bg'></div>" );
+                        $('body').addClass('no_scroll');
+                    });
+
+                    overlayClose.click(function(){
+                        $('body').removeClass('no_scroll');
+                        $('.mobile_overlay_bg').remove();
+                        $('.mobile_overlay_panel').hide();
+                        $('.dropdown_link.active').focus();
+                        $(".dropdown_panel").hide().attr('aria-hidden','true').attr( "tabindex", '' );
+                        $('.dropdown_link').removeClass('active');
+                        var dialogOpen = false;
+                    });
+
+                    // close modal dialog scripts
+                    $(".close_modal").click(function(){
+                        var dialogID = $(this).parent().parent().attr('id').replace(/_options/g, '');
+                        var dialogBtn = '#' + dialogID;
+                        $(dialogBtn).focus();
+
+                        $(this).parent().parent().dialog('close');
+                    });
+                    
+                    $(".btn_cancel_modal").click(function(){
+                        var dialogID = $(this).closest('.dialog_content').parent().attr('id').replace(/_options/g, '');
+                        var dialogBtn = '#' + dialogID;
+                        $(dialogBtn).focus();
+
+                        $(this).closest('.dialog_content').parent().dialog('close');
+                    });
+
+                    // Readjust dialog to center if resizing
+                    $(window).resize(function() {
+                        $(".ui-dialog-content").dialog("option", "position", {my: "center", at: "center", of: window});
+                    });
+
+                    // edit email modal
+                    $('#addActivitiesLink').click(function(){
+                        $("#addActivitiesDialog").dialog( "open" );
+                    });
+
+                    $("#addActivitiesDialog").dialog({
+                        autoOpen: false,
+                        height: 'auto',
+                        hide: 'fade',
+                        show: 'fade',
+                        width: 640,
+                        modal: true
+                    });
+                    
+                });
+
+                // The rest of code goes here!
+                ectsp.dropdownContainers();
+                ectsp.checkAppliedChbox();
+                ectsp.checkDisabledChbox();
+
+                //hide side menu in mobile view
+                function sideMenuAria() {
+                    var windowWidth = $(window).width();
+
+                    if ( windowWidth > 767) {
+                        $('.navigation').attr('aria-hidden','false');
+                    }
+                    else {
+                        $('.navigation').attr('aria-hidden','true'); 
+                    }
+                }
+                sideMenuAria();
+                
+                    //function to hide/show side menu for accesibility
+                    $(window).resize(function(){  
+                        var windowWidth = $(window).width();
+                        sideMenuAria();
+                    });
+
+                    //tab through sidemenu
+                    $('.navigation').keydown(function(e) {
+                        var tab = 9;
+                        var triggerElement = document.activeElement;
+                        var triggerElementId = $(triggerElement).attr('id');
+
+                        if ( e.keyCode === tab && triggerElementId == 'logoutButton') {
+                            $('.navigation').focus();
+                        }
+                    });
+                    
+                }));
+            </script>
+        </body>
+        </html>
+=======
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Ectsp Patient Portal</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/icons.css">
+</head>
+<body>
+
+    <div class="application_wrap">
+        <header>
+
+            <div class="wrapper">
+                <div class="resp_menu">
+                    <a class="js_resp_menu" href="javascript:void(0)"><span class="hidden_text">Select to open side-menu</span><span class="icon ectsp_hamburger"></span></a>
+                </div>
+
+                <div class="brand">
+                    <h1>
+                        <a href="#">Ectsp</a>
+                    </h1>
+                </div>
+
+                <div class="user_section hide-for-mobile">
+                    <a href="javascript:void[0]" id="user_panel" class="user_panel dropdown_link">
+                        <span class="hidden_text">View User Options for</span>
+                        <span class="user_name">Martha Mullins</span>
+                        <span class="toggle_arrow ectsp_chevron_down"></span>
+                    </a>
+
+                    <div id="user_panel_options" style="display:none;" aria-hidden="true" class="dropdown_panel" role="dialog" aria-label="User Options">
+                        <div class="dropdown_close">
+                            <a href="javascript:void(0)" role="button" aria-label="Click or Press Escape key to close user Options Panel">
+                                <span class="ectsp_exit_view"></span>
+                                <span class="hidden_text">Click or Press Escape key to close user Options Panel</span>
+                            </a>
+                        </div>
+                        <h3 class="color_1">User Options</h3>
+                        <ul class="menu_list">
+                            <li><a href="#change_password">Content to be determined</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="user_logout">
+                        <a href="#" title="Logout"><span class="ectsp_logout"></span><span class="hidden_text">Logout</span></a>
+                    </div>
+                </div> 
+
+                <div class="care_team_module">
+                    <div class="avatar">
+                        <a class="care_team_module_center" href="care_team.html">
+                            <span class="hidden_text">Care Team</span>
+                            <span class="care_team_module_icon ectsp_brandmark"></span>
+                            <span class="concentric_ring c1"></span>
+                            <span class="concentric_ring c2"></span>
+                            <span class="concentric_ring c3"></span>
+                            <span class="concentric_ring c4"></span>
+                            <span class="care_team_message_count">2</span>
+                        </a>
+                    </div>
+                    <span class="pointer"></span>
+                </div> 
+            </div>
+
+            <div class="feed_header non-mobile">
+                <h2>Calendar</h2>
+
+                <!-- Toggle Calendar View State -->
+                <div class="cal_view_state btn_action btn_group clearfix">
+                    <div class="btn_option">
+                        <button type="button" class="btn_normal btn_group_option" id="view_monthly" onclick="window.location='calendar.html'">
+                            <span class="btn_text"><span class="group_status hidden_text">Current View </span>Month</span>
+                        </button>
+                    </div>
+                    <div class="btn_option">
+                        <button type="button" class="btn_normal btn_group_option btn_active" id="view_weekly" onclick="window.location='calendar_weekly.html'">
+                            <span class="btn_text"><span class="group_status hidden_text">Switch View to </span>Week</span>
+                        </button>
+                    </div>
+                    <div class="btn_option">
+                        <button type="button" class="btn_normal btn_group_option" id="view_daily" onclick="window.location='calendar_daily.html'">
+                            <span class="btn_text"><span class="group_status hidden_text">Switch View to </span>Day</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="appCta">
+                    <a class="appCta_close" href="javascript:void(0)"><span class="ectsp_close"></span></a>
+                    <a href="#">
+                        <div class="img_contain">
+                            <img src="img/app_cta_img.png" alt="Download the Ectsp App" />
+                        </div>
+                        <div class="cta_details">
+                            <p>Download the <span>Ectsp iPhone</span> app</p>
+                            <span class="appstore_img"></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="wrapper">
+                <nav tabindex="0" class="navigation">
+                    <div class="user_section hide-for-desktop">
+                        <a class="user_profile_link" href="profile.html"> 
+                            <div class="user_profile_link_details">
+                                <span class="user_profile_name">Martha Mullins</span>
+                                <span class="link_signifier">View profile</span>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <!-- navigation -->
+                    <ul class="main_nav">
+                        <li>
+                            <a href="tasks.html">
+                                <span class="nav_icon ectsp_tasks"></span>
+                                <span class="nav_link_text">Task List</span>
+                                <span class="tasks_notification_count">+ 5</span><span class="hidden_text"> new tasks</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="goals.html"><span class="nav_icon ectsp_goals"></span><span class="nav_link_text">My Goals</span></a>
+                        </li>
+                        <li>
+                            <a href="care_plan.html"><span class="nav_icon ectsp_care_plan"></span><span class="nav_link_text">Care Plan</span></a>
+                        </li>
+                        <li>
+                            <a href="logbook.html"><span class="nav_icon ectsp_journal"></span><span class="nav_link_text">Logbook</span></a>
+                        </li>
+                        <li>
+                            <a class="active" href="calendar.html"><span class="nav_icon ectsp_calendar"></span><span class="nav_link_text">Calendar</span></a>
+                        </li>
+                        <li>
+                            <a href="library.html"><span class="nav_icon ectsp_library"></span><span class="nav_link_text">Library</span></a>
+                        </li>
+                        <li>
+                            <a href="care_team.html"><span class="nav_icon ectsp_care_team"></span><span class="nav_link_text">Care Team</span> <span class="tasks_notification_count">2</span><span class="hidden_text"> new messages</span></a>
+                        </li>
+                        <li>
+                            <a href="profile.html"><span class="nav_icon ectsp_avatar"></span><span class="nav_link_text">Profile</span></a>
+                        </li>
+                        <li>
+                            <a href="help.html"><span class="nav_icon ectsp_help"></span><span class="nav_link_text">Help</span></a>
+                        </li>
+                        <li class="logout_link hide-for-desktop">
+                            <a id="logoutButton" href="#"><span class="nav_icon ectsp_logout"></span><span class="nav_link_text">Logout</span></a>
+                        </li>
+                    </ul>
+
+                    <div class="version_details">
+                        <p>Version 1.0 By using ECTSP, you agree to our Disclaimer, Terms of Use and Privacy Policy.</p>
+                    </div>
+                </nav>
+
+                <div class="feed">
+                    <div class="feed_body">
+                        <div class="calendar_component">
+                            <!-- Start of Calendar -->
+                            <div id="calendar_header" class="clearfix">
+                                <div class="today_anchor"><a href="#"><span class="hidden_text">Return to</span>Today<span class="hidden_text">view</span></a></div>
+                                <div class="cal_month_container">
+                                    <div class="cal_prev_month">
+                                        <button type="button" class="btn_normal btn_icon_only">
+                                            <span class="btn_text"><span class="hidden_text">View Previous Week</span></span>
+                                            <span class="btn_icon ectsp_chevron_left"></span>
+                                        </button>
+                                    </div>
+                                    <h2 class="cal_month"><span class="hidden_text">Viewing Calendar for</span> <span id="cal_month_value">4 - 10 April 2016</span></h2>
+                                    <div class="cal_next_month">
+                                        <button type="button" class="btn_normal btn_icon_only">
+                                            <span class="btn_text"><span class="hidden_text">View Next Week</span></span>
+                                            <span class="btn_icon ectsp_chevron_right"></span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="cal_actions">
+
+                                    <!-- Chart Options -->
+                                    <div class="btn_action dropdown_container">
+                                        <button class="dropdown_link mobile_overlay_link btn_normal btn_white" id="calendar_panel" type="button">
+                                            <span class="text">Show more activities</span>
+                                            <span class="toggle_arrow ectsp_more"></span>
+                                        </button>
+                                        <div id="calendar_panel_options" style="display:none;" aria-hidden="true" class="dropdown_panel mobile_overlay_panel" role="dialog" aria-label="Calendar Options">
+                                            <div class="dropdown_close">
+                                                <a class="mobile_overlay_close" href="javascript:void(0)" role="button" aria-label="Click or Press Escape key to close Chart Options Panel">
+                                                    <span class="ectsp_exit_view"></span>
+                                                    <span class="hidden_text">Click or Press Escape key to close Calendar Options Panel</span>
+                                                </a>
+                                            </div>
+                                            <h3 class="color_1">Filter Calendar</h3>
+
+                                            <div class="menu_options_container">
+                                                <div class="menu_options_content permanent_display">
+                                                    <ul class="menu_list">
+                                                        <li>
+                                                            <label class="chbox_label" for="task_missed_medication">
+                                                                <span class="chbox_input"><input disabled="" checked="" type="checkbox" id="task_missed_medication" name="task_missed_medication"/></span><span class="chbox_icon"></span>
+                                                                <span class="chbox_text"><span class="chbox_status hidden_text">Select</span> <span class="task_icon task_status_missed ectsp_missed"></span> Missed medication</span>
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label class="chbox_label" for="task_appointment">
+                                                                <span class="chbox_input"><input disabled="" checked="" type="checkbox" id="task_appointment" name="task_etherapy"/></span><span class="chbox_icon"></span>
+                                                                <span class="chbox_text"><span class="chbox_status hidden_text">Select</span> <span class="task_icon task_status_visit ectsp_visit"></span> Appointment</span>
+                                                            </label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="menu_options_content">
+                                                    <fieldset class="form_row clearfix chbox_list scrollable_list">
+                                                        <legend class="hidden_label">Available Calendar</legend>
+                                                        <ul class="menu_list">
+                                                            <li>
+                                                                <label class="chbox_label" for="task_medication">
+                                                                    <span class="chbox_input"><input type="checkbox" id="task_medication" name="task_medication"  /></span><span class="chbox_icon"></span>
+                                                                    <span class="chbox_text"><span class="chbox_status hidden_text">Select</span> <span class="task_icon ectsp_medication"></span> Medication</span>
+                                                                </label>
+                                                            </li>
+                                                            <li>
+                                                                <label class="chbox_label" for="task_etherapy">
+                                                                    <span class="chbox_input"><input type="checkbox" id="task_etherapy" name="task_etherapy" /></span><span class="chbox_icon"></span>
+                                                                    <span class="chbox_text"><span class="chbox_status hidden_text">Select</span> <span class="task_icon ectsp_etherapy"></span> eTherapy</span>
+                                                                </label>
+                                                            </li>
+                                                            <li>
+                                                                <label class="chbox_label" for="task_questionnaire">
+                                                                    <span class="chbox_input"><input type="checkbox" id="task_questionnaire" name="task_questionnaire"   /></span><span class="chbox_icon"></span>
+                                                                    <span class="chbox_text"><span class="chbox_status hidden_text">Select</span> <span class="task_icon ectsp_questionnaire"></span> Questionnaire</span>
+                                                                </label>
+                                                            </li>
+                                                            <li>
+                                                                <label class="chbox_label" for="task_education">
+                                                                    <span class="chbox_input"><input type="checkbox" id="task_education" name="task_education"   /></span><span class="chbox_icon"></span>
+                                                                    <span class="chbox_text"><span class="chbox_status hidden_text">Select</span> <span class="task_icon ectsp_education"></span> Education</span>
+                                                                </label>
+                                                            </li>
+
+                                                            <li class="hide-for-desktop apply_link">
+                                                                <button class="mobile_overlay_close btn btn_normal">Done</button>
+                                                            </li>
+                                                        </ul>
+                                                    </fieldset>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <table id="weekly_calendar" class="event_calenndar">
+                                <caption class="hidden_text">Events Calendar</caption>
+                                <thead>
+                                    <tr>
+                                        <th scope="col"><div class="cal_time hidden_text">Time</div></th>
+                                        <th scope="col"><div class="cal_day current_day"><span class="hidden_text">Current day:</span><abbr title="Monday">Mon</abbr> 4 <span class="hidden_text">April 2016</span></div></th>
+                                        <th scope="col"><div class="cal_day "><abbr title="Tuesday">Tue</abbr> 5 <span class="hidden_text">April 2016</span></div></th>
+                                        <th scope="col"><div class="cal_day"><abbr title="Wednesday">Wed</abbr> 6 <span class="hidden_text">April 2016</span></div></th>
+                                        <th scope="col"><div class="cal_day"><abbr title="Thursday">Thu</abbr> 7 <span class="hidden_text">April 2016</span></div></th>
+                                        <th scope="col"><div class="cal_day"><abbr title="Friday">Fri</abbr> 8 <span class="hidden_text">April 2016</span></div></th>
+                                        <th scope="col"><div class="cal_day"><abbr title="Saturday">Sat</abbr> 9 <span class="hidden_text">April 2016</span></div></th>
+                                        <th scope="col"><div class="cal_day"><abbr title="Sunday">Sun</abbr> 10 <span class="hidden_text">April 2016</span></div></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th class="cal_time_col">
+                                            <div class="cal_time"><span class="cal_time_icon ectsp_morning"></span> <abbr title="Morning" aria-label="Morning">AM</abbr></div>
+                                        </th>
+                                        <td class="">
+                                            <div class="cal_day">
+                                                <button class="cal_entry btn_normal view_cal_medication">
+                                                    <span class="cal_entry_time">
+                                                        <span class="cal_entry_icon ectsp_medication"></span>
+                                                        <span class="cal_entry_time_value">8:00am</span>
+                                                    </span>
+                                                    <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td class="">
+                                            <div class="cal_day">
+                                                <button class="cal_entry btn_normal view_cal_medication">
+                                                    <span class="cal_entry_time">
+                                                        <span class="cal_entry_icon ectsp_medication"></span>
+                                                        <span class="cal_entry_time_value">8:00am</span>
+                                                    </span>
+                                                    <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="cal_day">
+                                                <button class="cal_entry btn_normal view_cal_medication">
+                                                    <span class="cal_entry_time">
+                                                        <span class="cal_entry_icon ectsp_medication"></span>
+                                                        <span class="cal_entry_time_value">8:00am</span>
+                                                    </span>
+                                                    <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="cal_day">
+                                                <button class="cal_entry btn_normal view_cal_medication">
+                                                    <span class="cal_entry_time">
+                                                        <span class="cal_entry_icon ectsp_medication"></span>
+                                                        <span class="cal_entry_time_value">8:00am</span>
+                                                    </span>
+                                                    <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="cal_day">
+                                                <button class="cal_entry btn_normal view_cal_medication">
+                                                    <span class="cal_entry_time">
+                                                        <span class="cal_entry_icon ectsp_medication"></span>
+                                                        <span class="cal_entry_time_value">8:00am</span>
+                                                    </span>
+                                                    <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="cal_day">
+                                                <button class="cal_entry btn_normal view_cal_medication">
+                                                    <span class="cal_entry_time">
+                                                        <span class="cal_entry_icon ectsp_medication"></span>
+                                                        <span class="cal_entry_time_value">8:00am</span>
+                                                    </span>
+                                                    <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="cal_day">
+                                                <button class="cal_entry btn_normal view_cal_medication">
+                                                    <span class="cal_entry_time">
+                                                        <span class="cal_entry_icon ectsp_medication"></span>
+                                                        <span class="cal_entry_time_value">8:00am</span>
+                                                    </span>
+                                                    <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                </button>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <th class="cal_time_col">
+                                            <div class="cal_time"><span class="cal_time_icon ectsp_afternoon"></span> <abbr title="Afternoon" aria-label="Afternoon">PM</abbr></div>
+                                        </th>
+                                        <td class="">
+                                            <div class="cal_day">
+                                                <button class="cal_entry btn_normal view_cal_etherapy">
+                                                    <span class="cal_entry_time">
+                                                        <span class="cal_entry_icon ectsp_etherapy"></span>
+                                                        <span class="cal_entry_time_value">2:00pm</span>
+                                                    </span>
+                                                    <span class="cal_entry_title"><span class="hidden_text">eTherapy</span> Happy Neuron</span>
+                                                </button>
+                                                        <!-- <button class="cal_entry btn_normal view_cal_encounter">
+                                                            <span class="cal_entry_time cal_entry_encounter">
+                                                                <span class="cal_entry_icon ectsp_visit"></span>
+                                                                <span class="cal_entry_time_value">4:00pm</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Encounter</span> MD, Nigel Norman Clinic</span>
+                                                        </button> -->
+                                                    </div>
+                                                </td>
+                                                <td class=""></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+
+                                            <tr>
+                                                <th class="cal_time_col">
+                                                    <div class="cal_time"><span class="cal_time_icon ectsp_evening"></span> <abbr title="Evening" aria-label="Evening">EVE</abbr></div>
+                                                </th>
+                                                <td class="">
+                                                    <div class="cal_day">
+                                                        <!-- <button class="cal_entry btn_normal view_cal_medication">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_medication"></span>
+                                                                <span class="cal_entry_time_value">8:00am</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                        </button> -->
+                                                    </div>
+                                                </td>
+                                                <td class="">
+                                                    <div class="cal_day">
+                                                        <!-- <button class="cal_entry btn_normal view_cal_medication">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_medication"></span>
+                                                                <span class="cal_entry_time_value">8:00am</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                        </button> -->
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cal_day">
+                                                        <!-- <button class="cal_entry btn_normal view_cal_medication">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_medication"></span>
+                                                                <span class="cal_entry_time_value">8:00am</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                        </button> -->
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cal_day">
+                                                        <!-- <button class="cal_entry btn_normal view_cal_medication">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_medication"></span>
+                                                                <span class="cal_entry_time_value">8:00am</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                        </button> -->
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cal_day">
+                                                        <!-- <button class="cal_entry btn_normal view_cal_medication">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_medication"></span>
+                                                                <span class="cal_entry_time_value">8:00am</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                        </button> -->
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cal_day">
+                                                        <!-- <button class="cal_entry btn_normal view_cal_medication">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_medication"></span>
+                                                                <span class="cal_entry_time_value">8:00am</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                        </button> -->
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cal_day">
+                                                        <!-- <button class="cal_entry btn_normal view_cal_medication">
+                                                            <span class="cal_entry_time">
+                                                                <span class="cal_entry_icon ectsp_medication"></span>
+                                                                <span class="cal_entry_time_value">8:00am</span>
+                                                            </span>
+                                                            <span class="cal_entry_title"><span class="hidden_text">Medication</span> Tecfidera, 1 x 240mg</span>
+                                                        </button> -->
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+
+            <script src="js/jquery-1.11.3.min.js"></script>
+            <script src="js/jquery-ui.min.js"></script>
+            <script src="js/common.js"></script>
+
+            <script>
+                (function(ectsp) {
+
+                    ectsp(window.jQuery, window, document);
+
+                }(function($, window, document) {
+
+                    $(function() {
+                        var menuBtn       = $('.js_resp_menu');
+                        var sideNav       = $('.navigation');
+                        var appCta        = $('.appCta');
+                        var appCtaClose   = $('.appCta_close');
+                        var feed          = $('.feed');
+                        var overlayLink   = $('.mobile_overlay_link');
+                        var overlayClose  = $('.mobile_overlay_close');
+                        var wrap          = $('.application_wrap');
+                        var dropdownLink = $('.dropdown_link');
+                        var panelOptions = $('#calendar_panel_options');
+
+                    //responsive nav
+                    menuBtn.click(function(e) {
+                        if ( sideNav.hasClass('isOpen') ) {
+                            sideNav.removeClass('isOpen');
+                            $('body').removeClass('no-scroll');
+                            $('.navigation').attr('aria-hidden','true');
+                            return false
+                        } else {
+                            $('.navigation').attr('aria-hidden','false');
+                            sideNav.addClass('isOpen');
+                            $('body').addClass('no-scroll');
+                            $('.user_profile_link').focus();
+                            return false
+                        }
+                    });
+
+                    $('html').click(function(){
+                        if ( sideNav.hasClass('isOpen') ) {
+                            $('.navigation').attr('aria-hidden','true');
+                            sideNav.removeClass('isOpen');
+                            $('body').removeClass('no-scroll');
+                        }
+                        if ( dropdownLink.hasClass('active') ) {
+                            $('body').removeClass('no_scroll');
+                            $('.mobile_overlay_bg').remove();
+                            $('.mobile_overlay_panel').hide();
+                            $('.dropdown_link.active').focus();
+                            $(".dropdown_panel").hide().attr('aria-hidden','true').attr( "tabindex", '' );
+                            $('.dropdown_link').removeClass('active');
+                            var dialogOpen = false;
+                        }  
+                    });
+
+                    dropdownLink.click(function(e){
+                        e.stopPropagation();
+                    });
+
+                    panelOptions.click(function(e){
+                        e.stopPropagation();
+                    });
+
+                    sideNav.click(function(e){
+                        e.stopPropagation();
+                    });
+
+                    $(window).resize(function(){
+
+                        //  if ( windowFrame.width() < 767 ) {
+                        //     sideNav.animate({'left' : '-50%'}).removeClass('isOpen');
+                        // } 
+
+                        // if ( windowFrame.width() > 768 ) {
+                        //     sideNav.css({'left' : '0'}).removeClass('isOpen');
+                        // } 
+
+                        // if (windowFrame.width() > 1200) {
+                        //     sideNav.css({'left' : 'auto'}).removeClass('isOpen');
+                        // }
+                        
+                    });
+
+                    // close App Cta
+                    appCtaClose.click(function(){
+                        appCta.slideUp().addClass('hidden');
+                        feed.css('margin-top', 0);
+                    });
+
+                    // mobile overlay script
+                    overlayLink.click(function(){
+                        $(wrap).prepend("<div class='mobile_overlay_bg'></div>" );
+                        $('body').addClass('no_scroll');
+                    });
+
+                    overlayClose.click(function(){
+                        $('body').removeClass('no_scroll');
+                        $('.mobile_overlay_bg').remove();
+                        $('.mobile_overlay_panel').hide();
+                        $('.dropdown_link.active').focus();
+                        $(".dropdown_panel").hide().attr('aria-hidden','true').attr( "tabindex", '' );
+                        $('.dropdown_link').removeClass('active');
+                        var dialogOpen = false;
+                    });
+                    
+                });
+
+                // The rest of code goes here!
+                ectsp.dropdownContainers();
+                ectsp.checkAppliedChbox();
+                ectsp.checkDisabledChbox();
+
+                //hide side menu in mobile view
+                function sideMenuAria() {
+                    var windowWidth = $(window).width();
+
+                    if ( windowWidth > 767) {
+                        $('.navigation').attr('aria-hidden','false');
+                    }
+                    else {
+                        $('.navigation').attr('aria-hidden','true'); 
+                    }
+                }
+                sideMenuAria();
+                
+                    //function to hide/show side menu for accesibility
+                    $(window).resize(function(){  
+                        var windowWidth = $(window).width();
+                        sideMenuAria();
+                    });
+
+                    //tab through sidemenu
+                    $('.navigation').keydown(function(e) {
+                        var tab = 9;
+                        var triggerElement = document.activeElement;
+                        var triggerElementId = $(triggerElement).attr('id');
+
+                        if ( e.keyCode === tab && triggerElementId == 'logoutButton') {
+                            $('.navigation').focus();
+                        }
+                    });
+                    
+                }));
+            </script>
+        </body>
+        </html>
+>>>>>>> origin/master
